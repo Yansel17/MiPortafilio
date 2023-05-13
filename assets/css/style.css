@@ -35,6 +35,7 @@ ul,
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: var(--cor-de-link);
@@ -70,6 +71,11 @@ https://en.bem.info/methodology/quick-start/*/
   max-width: 200px;
 }
 
+.inicio {
+  display: flex;
+  align-items: center;
+}
+
 .menu__img {
   display: flex;
   width: 6%;
@@ -95,7 +101,6 @@ https://en.bem.info/methodology/quick-start/*/
   margin-right: 2rem;
 }
 
-#inicio,
 #sobre-mi,
 #skills,
 #hobbies,
@@ -103,6 +108,10 @@ https://en.bem.info/methodology/quick-start/*/
 #xp,
 #contacto {
   scroll-margin-top: 10ex;
+}
+
+#inicio {
+  scroll-margin-top: 12ex;
 }
 
 .title__network__item-c {
@@ -289,6 +298,7 @@ https://en.bem.info/methodology/quick-start/*/
 .academic {
   margin: 4rem 0;
 }
+
 .academic__courses__list {
   padding: 0;
 }
@@ -333,6 +343,7 @@ https://en.bem.info/methodology/quick-start/*/
 .experience__title {
   font-size: 30px;
 }
+
 .experience__text,
 .experience__title {
   font-weight: 100;
@@ -486,19 +497,9 @@ Utiliza las referencias de los breakpoints @media abajo */
     display: inline;
   }
 
-  #contacto {
-    scroll-margin-top: 8ex;
-  }
-
   /*Menu*/
 
-  .menu__img {
-    margin: 10px;
-  }
-
   .menu__title {
-    display: flex;
-    align-items: center;
     font-size: 16px;
   }
 
@@ -624,6 +625,7 @@ Utiliza las referencias de los breakpoints @media abajo */
   .experience__text {
     font-size: 14px;
   }
+
   /*Experiencia Profesional*/
 
   .experience__box,
@@ -640,6 +642,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     padding-top: 20px;
     border-radius: 5px;
   }
+
   .experience__description {
     justify-content: space-between;
   }
