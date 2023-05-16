@@ -475,24 +475,17 @@ Utiliza las referencias de los breakpoints @media abajo */
   box-sizing: border-box;
 }
 
-/*Tablet*/
+/*Tablet y mobile*/
 @media (max-width: 768px) {
-  /* Menú */
-
-  /*title*/
-
-  /*Skills*/
-
-  /*Hobbies*/
-
-  /*Formación Académica*/
-
-  /*Experiencia Profesional*/
-
-  /*}*/
-
+  
   /*Mobile*/
   /* @media (max-width: 425px) { */
+
+
+  .go-to-top {
+    display: none !important;
+  }
+  
   .title__network__item__contacto {
     display: inline;
   }
