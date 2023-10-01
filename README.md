@@ -1,5 +1,5 @@
 
-# yansel17.github.io/MiPortafilio -  Portafolio
+# yansel17.github.io/MiPortafilio -  Portafolio responsive
 
 https://yansel17.github.io/MiPortafilio/
 
